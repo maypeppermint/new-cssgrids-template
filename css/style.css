@@ -3,17 +3,34 @@ body {
 	background-size: 90%;
 }
 
-#container {
+/* #container {
 	width: 89%;
 	margin: 20px auto;
 	display: grid;
 	
-	grid-template-columns: repeat(4, 1fr); /* 1fr 1fr 1fr 1fr */
+	grid-template-columns: repeat(4, 1fr); 
 
 	gap: 2%;
-}
+} */
+/*Breda desktopskärmar*/
+#container{
+	border: 0;
+	width:1200px;
+	margin:20px auto;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 2%;
+	}
 
-[class*='section'] {
+/* [class*='box'] {
 	border: 1px solid #333;
 	min-height: 100px;
+} */
+
+div{
+	border: 1px solid #333;
+	min-height: 100px;
+}
+[class*='footerSection'] {
+margin: 10px;
 }
