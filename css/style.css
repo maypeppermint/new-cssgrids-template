@@ -1,6 +1,6 @@
 body {
 	background: url(../img/12_col.gif) center top repeat-y;
-	background-size: 90%;
+	background-size: 95%;
 }
 
 /* #container {
@@ -20,7 +20,54 @@ body {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	gap: 2%;
+	grid-template-areas: 
+	"header header header header header header header header header header header header"
+	"box1 box1 box2 box2 box2 box2 box2 box2 box2 box2 box3 box3"
+	"content content content content content content content content content sidebar sidebar sidebar"
+	"footer footer footer footer footer footer footer footer footer footer footer footer";
 	}
+.header{
+	grid-area: header;
+}
+.box1{
+	grid-area: box1;
+}
+.box2{
+	grid-area: box2;
+}
+.box3{
+	grid-area: box3;
+}
+.content{
+	grid-area: content;
+}
+.sidebar{
+	grid-area: sidebar;
+}
+.footer{
+	grid-area: footer;
+}
+
+#footercontainer{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2%;
+	grid-template-areas: 
+	"footerSection1 footerSection2 footerSection3 footerSection4";
+}
+.footerSection1{
+	grid-area: footerSection1;
+}
+footerSection2{
+	grid-area: footerSection2;
+}
+footerSection3{
+	grid-area: footerSection3;
+}
+footerSection4{
+	grid-area: footerSection4;
+}
+
 
 /* [class*='box'] {
 	border: 1px solid #333;
@@ -32,5 +79,11 @@ div{
 	min-height: 100px;
 }
 [class*='footerSection'] {
-margin: 10px;
+margin: 10px 0;
+}
+.footerSection1{
+	margin-left: 10px;
+}
+.footerSection4{
+	margin-right: 10px;
 }
