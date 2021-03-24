@@ -33,6 +33,18 @@ section{
 .header{
 	grid-area: header;
 	background-color:beige;
+	padding: 0 50px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.headerButton{
+	margin-right: 40px;
+}
+#hdbutton4{
+	margin-right: 0;
+	margin-left: auto;
 }
 .box1{
 	grid-area: box1;
@@ -51,6 +63,12 @@ section{
 .sidebar{
 	grid-area: sidebar;
 	background-color:beige;
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 20px;
+}
+.sidebarButton{
+	margin-bottom: 15px;
 }
 .footer{
 	grid-area: footer;
