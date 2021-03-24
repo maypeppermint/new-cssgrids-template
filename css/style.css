@@ -1,9 +1,9 @@
-*{
+/* *{
 	all: unset;
 }
 title {
     display: none;
-}
+} */
 body {
 	background: url(../img/12_col.gif) center top repeat-y;
 	background-size: 90%;
@@ -95,7 +95,6 @@ div{
 	}
 }
 
-
 /*Phone*/
 @media screen and (max-width: 768px){
 	#container{
@@ -118,4 +117,3 @@ div{
 		gap: 15px;
 	}
 }
-
