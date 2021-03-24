@@ -13,10 +13,6 @@ div{
 	border: 1px solid #333;
 	min-height: 200px;
 }
-section{
-	border: 1px solid #333;
-	
-}
 #container {
 	width: 89%;
 	margin: 20px auto;
@@ -57,8 +53,16 @@ section{
 }
 .content{
 	grid-area: content;
-	padding: 20px;
 	background-color:beige;
+	display: flex;
+	flex-flow: row wrap;
+}
+section{
+	border: 1px solid #333;
+	height: 100px;
+	flex: 0 1 255px;
+	margin: 10px;
+	align-self: stretch;
 }
 .sidebar{
 	grid-area: sidebar;
