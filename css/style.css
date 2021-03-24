@@ -13,6 +13,10 @@ div{
 	border: 1px solid #333;
 	min-height: 200px;
 }
+section{
+	border: 1px solid #333;
+	
+}
 #container {
 	width: 89%;
 	margin: 20px auto;
@@ -28,6 +32,7 @@ div{
 	}
 .header{
 	grid-area: header;
+	background-color:beige;
 }
 .box1{
 	grid-area: box1;
@@ -40,9 +45,12 @@ div{
 }
 .content{
 	grid-area: content;
+	padding: 20px;
+	background-color:beige;
 }
 .sidebar{
 	grid-area: sidebar;
+	background-color:beige;
 }
 .footer{
 	grid-area: footer;
