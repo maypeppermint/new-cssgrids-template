@@ -60,7 +60,7 @@ div{
 section{
 	border: 1px solid #333;
 	height: 100px;
-	flex: 0 1 255px;
+	flex: 1 1 255px;
 	margin: 10px;
 	align-self: stretch;
 }
